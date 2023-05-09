@@ -4,13 +4,32 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bffff64b-13d7-45cf-9619-f872b3f39e13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+    <list default="true" id="bffff64b-13d7-45cf-9619-f872b3f39e13" name="Changes" comment="It's OK">
+      <change afterPath="$PROJECT_DIR$/fptr10.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/fptr10/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/fptr10/fptr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/fptr10/fptr_darwin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/fptr10/fptr_linux.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/fptr10/fptr_windows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/fptr10/libfptr10.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/fptr10/libfptr10_go.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/fptr10/wchar.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file://C:/Program Files/Go" />
   <component name="Git.Settings">
@@ -19,28 +38,101 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://C:/Program Files/Go/src/fptr/error.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Go/src/fptr/fptr.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Go/src/fptr/fptr_windows.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Go/src/fptr/wchar.go" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2PO3gsuoALsa3o0UHPi76RAPKq3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "WebServerToolWindowFactoryState": "false",
+    "configurable..is.expanded": "true",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Natrix"
+    "last_opened_file_path": "F:/Develop/Golang/KKTwatcher",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.intellij.profiler.configurations.ui.EditProfilerConfigurationsComponent"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Develop\Golang\KKTwatcher" />
+      <recent name="F:\Develop\Golang\KKTwatcher\internal" />
+      <recent name="F:\Develop\Golang\KKTwatcher\cmd\watcher" />
+      <recent name="F:\Develop\Golang\KKTwatcher\internal\fptr" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Develop\Golang\KKTwatcher" />
+      <recent name="F:\Develop\Golang\KKTwatcher\cmd\watcher" />
+      <recent name="F:\Develop\Golang\KKTwatcher\internal" />
+      <recent name="F:\Develop\Golang\KKTwatcher\src" />
+      <recent name="F:\Develop\Golang\KKTwatcher\cmd\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build KKTwatcher">
+    <configuration name="go build KKTwatcher" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="KKTwatcher" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="KKTwatcher" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build KKTwatcher" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true" show_console_on_std_out="true">
+      <log_file alias="log" path="$PROJECT_DIR$/../logs" />
+      <module name="KKTwatcher" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="cgo_enabled" />
+      <kind value="PACKAGE" />
+      <package value="KKTwatcher" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/watcher/watcher.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="KKTwatcher" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build KKTwatcher" />
+      <item itemvalue="Go Build.go build main.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build KKTwatcher" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build KKTwatcher" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -56,8 +148,12 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="It's OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="It's OK" />
+  </component>
   <component name="VgoProject">
-    <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
   </component>
 </project>
