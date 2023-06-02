@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bffff64b-13d7-45cf-9619-f872b3f39e13" name="Changes" comment="It's OK">
-      <change afterPath="$PROJECT_DIR$/fptr10.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/fptr10/error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/fptr10/fptr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/fptr10/fptr_darwin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/fptr10/fptr_linux.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/fptr10/fptr_windows.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/fptr10/libfptr10.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/fptr10/libfptr10_go.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/fptr10/wchar.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/KKTWatcher.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/kkt.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fptr10.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/client/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +27,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://C:/Program Files/Go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -39,10 +35,10 @@
     <option name="indexEntireGoPath" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://C:/Program Files/Go/src/fptr/error.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://C:/Program Files/Go/src/fptr/fptr.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://C:/Program Files/Go/src/fptr/fptr_windows.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://C:/Program Files/Go/src/fptr/wchar.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Go/src/fptr/error.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Go/src/fptr/fptr.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Go/src/fptr/fptr_windows.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Go/src/fptr/wchar.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,21 +57,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultGoTemplateProperty": "Go File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "configurable..is.expanded": "true",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "F:/Develop/Golang/KKTwatcher",
+    "last_opened_file_path": "C:/Users/uzhvl",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.intellij.profiler.configurations.ui.EditProfilerConfigurationsComponent"
+    "settings.editor.selected.configurable": "com.goide.configuration.GoProjectSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -86,14 +84,22 @@
       <recent name="F:\Develop\Golang\KKTwatcher\internal\fptr" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\uzhvl\GolandProjects\RetailMonitor\cmd" />
+      <recent name="C:\Users\uzhvl\GolandProjects\KKTWatcher\cmd\client" />
       <recent name="F:\Develop\Golang\KKTwatcher" />
       <recent name="F:\Develop\Golang\KKTwatcher\cmd\watcher" />
       <recent name="F:\Develop\Golang\KKTwatcher\internal" />
-      <recent name="F:\Develop\Golang\KKTwatcher\src" />
-      <recent name="F:\Develop\Golang\KKTwatcher\cmd\src" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build KKTwatcher">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="RetailMonitor" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build KKTwatcher" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="KKTwatcher" />
       <working_directory value="$PROJECT_DIR$" />
@@ -119,6 +125,15 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="RetailMonitor" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <list>
